@@ -1,14 +1,13 @@
-package com.thinkconstructive.rest_demo;
+package com.example.product_mongoDB;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class  RestDemoApplication {
+public class ProductMongoDbApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(RestDemoApplication.class, args);
+		SpringApplication.run(ProductMongoDbApplication.class, args);
 	}
 
 }
