@@ -1,0 +1,19 @@
+package com.deloitte.jpaProect;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class JavaStream {
+
+	public static void main(String[] args) {
+		List<String>list=new ArrayList<>();
+		list.add("Shashi");
+		list.add("karan");
+		
+		list.stream()
+		 .filter(s -> s.startsWith("S"))
+		 .forEach(System.out::println);
+
+	}
+
+}

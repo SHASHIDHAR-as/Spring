@@ -1,0 +1,45 @@
+package EmpJDBC;
+
+
+import java.sql.Date;
+import java.sql.SQLException;
+import java.util.List;
+
+public class Conn {
+
+    public static void main(String[] args) {
+        try {
+            EmployeeDAO employeeDAO = new EmployeeDAO("jdbc:mysql://localhost:3306/employee1", "root", "shashi3927");
+
+            // Add new employees
+            employeeDAO.addEmployee(1, "John Doe", 101, Date.valueOf("1985-01-15"), 50000);
+            employeeDAO.addEmployee(2, "Jane Smith", 102, Date.valueOf("1990-02-20"), 60000);
+
+            // Get all employees
+            List<Employee> employees = employeeDAO.getAllEmployees();
+            System.out.println("Name\t\tEmpId\tDeptId\tDOB\t\tSalary");
+            for (Employee employee : employees) {
+                System.out.println(employee);
+            }
+
+            // Update an employee
+            employeeDAO.updateEmployee(1, "John Doe Updated", 101, Date.valueOf("1985-01-15"), 55000);
+
+            // Delete an employee
+            employeeDAO.deleteEmployee(2);
+
+            // Get all employees after update and delete
+            employees = employeeDAO.getAllEmployees();
+            System.out.println("Name\t\tEmpId\tDeptId\tDOB\t\tSalary");
+            for (Employee employee : employees) {
+                System.out.println(employee);
+            }
+
+            // Close the connection
+            employeeDAO.closeConnection();
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+

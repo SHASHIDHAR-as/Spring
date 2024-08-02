@@ -1,0 +1,75 @@
+package com.deloitte.jpaProect;
+
+import java.sql.Date;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="EMP")
+public class Employee {
+
+    @Id
+    private int empid;
+    private String name;
+    private int deptid;
+    private Date dob;
+    private int salary;
+
+    public Employee() { }
+
+    public Employee(int empid, String name, int deptid, Date dob, int salary) {
+        this.empid = empid;
+        this.name = name;
+        this.deptid = deptid;
+        this.dob = dob;
+        this.salary = salary;
+    }
+
+    // Getters and setters...
+
+    @Override
+    public String toString() {
+        return name + "\t" + empid + "\t" + deptid + "\t" + dob + "\t" + salary;
+    }
+
+	public int getEmpid() {
+		return empid;
+	}
+
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getDeptid() {
+		return deptid;
+	}
+
+	public void setDeptid(int deptid) {
+		this.deptid = deptid;
+	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+}

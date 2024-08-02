@@ -1,0 +1,11 @@
+127.0.0.1 - - [02/Aug/2024:09:58:47 +0530] "GET / HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:09:58:48 +0530] "GET /webapp2/WEB-INF/classes/com/serverlets/EmpServerlet.java HTTP/1.1" 404 703
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:09:59:01 +0530] "GET /webapp2/EmpServerlet.java HTTP/1.1" 404 801
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:09:59:04 +0530] "GET /webapp2/EmpServerlet.java HTTP/1.1" 404 801
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:09:59:05 +0530] "GET /webapp2/EmpServerlet.java HTTP/1.1" 404 801
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:09:59:32 +0530] "GET /webapp2/emp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:10:00:07 +0530] "GET /webapp2/FirstServerlet HTTP/1.1" 200 19
+127.0.0.1 - - [02/Aug/2024:10:12:18 +0530] "GET / HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:10:12:19 +0530] "GET /Webapp/Login.html HTTP/1.1" 200 937
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:10:12:19 +0530] "GET /Webapp/CSS/Style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Aug/2024:10:12:22 +0530] "GET /Webapp/Register.html HTTP/1.1" 304 -

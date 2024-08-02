@@ -1,0 +1,43 @@
+/**
+ * 
+
+function add(){
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML=" Result is :"+(num1+num2);
+    alert(num1 + num2);
+}
+function sub(){
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML=" Result is :"+(num1-num2);
+    alert(num1 - num2);
+}
+ */
+
+ 
+ function calculate(option){
+	var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    if(num.isNaN || num2.isNaN){
+		alert("Please enter proper values");
+	}
+	switch(option){
+		case 'A':
+			    document.getElementById("result").innerHTML=" Result is :"+(num1+num2);
+    			alert(num1 + num2);
+    	case 'S':
+			    document.getElementById("result").innerHTML=" Result is :"+(num1+num2);
+    			alert(num1 - num2);
+    	case 'M':
+			    document.getElementById("result").innerHTML=" Result is :"+(num1+num2);
+    			alert(num1 * num2);
+    	case 'D':
+			    document.getElementById("result").innerHTML=" Result is :"+(num1+num2);
+    			alert(num1 / num2);
+	}
+	
+    
+    
+
+ }

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<input type="text" id="num1"><br>
+<input type="text" id="num1"><br>
+<button>Add</button> 
+<button>Subtract</button> 
+
+</body>
+</html>

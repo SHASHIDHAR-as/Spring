@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<script>
+function add(){
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    alert(num1 + num2);
+}
+function sub(){
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    alert(num1 - num2);
+}
+</script>
+</head>
+<body>
+<input type="text" id="num1"><br>
+<input type="text" id="num2"><br>
+<button onclick="add()">Add</button> 
+<button onclick="sub()">Subtract</button> 
+</body>
+</html>

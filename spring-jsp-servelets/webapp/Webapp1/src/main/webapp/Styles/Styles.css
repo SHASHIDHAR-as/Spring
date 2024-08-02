@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@charset "ISO-8859-1";
+
+h2{
+	color:blue;
+}
+
+p.custom{
+   color:red;
+   text-align: center;
+
+}

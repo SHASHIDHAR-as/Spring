@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<script src="Scripts/calcscript.js"></script>
+</head>
+<body>
+<input type="text" id="num1"><br>
+<input type="text" id="num2"><br>
+<p id="result">Result is: </p>
+<button onclick="calculate()">Add</button> 
+<button onclick="calculate()">Subtract</button> 
+<button onclick="calculate()">Multiply</button> 
+<button onclick="calculate()">Divide</button> 
+<button onclick="clearvalue()">clear</button> 
+</body>
+</html>

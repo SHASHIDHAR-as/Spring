@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<script src="Scripts/calcscript.js"></script>
+</head>
+<body>
+<input type="text" id="num1"><br>
+<input type="text" id="num2"><br>
+<p id="result">Result is: </p>
+<button onclick="add()">Add</button> 
+<button onclick="sub()">Subtract</button> 
+</body>
+</html>

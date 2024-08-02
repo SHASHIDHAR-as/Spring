@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+ document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("employeeForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            addEmployee();
+        });
+    });
+
+    function addEmployee() {
+        var name = document.getElementById("name").value;
+        var age = document.getElementById("age").value;
+        var department = document.getElementById("department").value;
+        
+        if (name === "" || age === "" || department === "") {
+            alert("Please fill out all fields");
+            return;
+        }
+
+        var table = document.getElementById("employeeTable").getElementsByTagName('tbody')[0];
+        var newRow = table.insertRow();
+        newRow.insertCell(0).textContent = name;
+        newRow.insertCell(1).textContent = age;
+        newRow.insertCell(2).textContent = department;
+
+        document.getElementById("employeeForm").reset();
+    }
+
+    function showTable() {
+        document.getElementById("tableContainer").style.display = "block";
+    }
+
+    function hideTable() {
+        document.getElementById("tableContainer").style.display = "none";
+    }
+
+    function clearTable() {
+        var table = document.getElementById("employeeTable").getElementsByTagName('tbody')[0];
+        table.innerHTML = "";
+    }

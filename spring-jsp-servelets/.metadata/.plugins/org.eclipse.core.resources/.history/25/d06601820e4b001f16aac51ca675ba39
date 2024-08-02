@@ -1,0 +1,201 @@
+package EmpJDBC;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class EmployeeDatabase {
+
+    // JDBC URL, username, and password of MySQL server
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/Employee";
+    private static final String JDBC_USER = "root"; // change to your MySQL username
+    private static final String JDBC_PASSWORD = "password"; // change to your MySQL password
+
+    // JDBC variables for opening and managing connection
+    private static Connection connection;
+
+    public static void main(String[] args) {
+        try {
+            // Load MySQL JDBC Driver
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // Establish the connection
+            connection = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
+            System.out.println("Connected to the database.");
+
+            // Create the employee table
+            createEmployeeTable();
+
+            // Insert data into the employee table
+            insertEmployeeData();
+
+            // Retrieve and display the data from the employee table
+            retrieveEmployeeData();
+
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            // Close the connection
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    private static void createEmployeeTable() throws SQLException {
+        String createTableSQL = "CREATE TABLE IF NOT EXISTS employee ("
+                + "empid INT, "
+                + "name VARCHAR(25), "
+                + "deptid INT, "
+                + "dob DATE, "
+                + "salary INT)";
+        
+        try (Statement statement = connection.createStatement()) {
+            statement.execute(createTableSQL);
+            System.out.println("Employee table created.");
+        }
+    }
+
+    private static void insertEmployeeData() throws SQLException {
+        String insertSQL = "INSERT INTO employee (empid, name, deptid, dob, salary) VALUES (?, ?, ?, ?, ?)";
+        
+        try (PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
+            // Add 20 rows of sample data
+            preparedStatement.setInt(1, 1);
+            preparedStatement.setString(2, "John Doe");
+            preparedStatement.setInt(3, 101);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1985-01-15"));
+            preparedStatement.setInt(5, 50000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 2);
+            preparedStatement.setString(2, "Jane Smith");
+            preparedStatement.setInt(3, 102);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1990-02-20"));
+            preparedStatement.setInt(5, 60000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 3);
+            preparedStatement.setString(2, "Michael Johnson");
+            preparedStatement.setInt(3, 103);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1982-03-25"));
+            preparedStatement.setInt(5, 55000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 4);
+            preparedStatement.setString(2, "Emily Davis");
+            preparedStatement.setInt(3, 104);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1988-04-30"));
+            preparedStatement.setInt(5, 62000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 5);
+            preparedStatement.setString(2, "Chris Brown");
+            preparedStatement.setInt(3, 105);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1992-05-05"));
+            preparedStatement.setInt(5, 48000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 6);
+            preparedStatement.setString(2, "Sarah Wilson");
+            preparedStatement.setInt(3, 106);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1984-06-10"));
+            preparedStatement.setInt(5, 51000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 7);
+            preparedStatement.setString(2, "David Lee");
+            preparedStatement.setInt(3, 107);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1987-07-15"));
+            preparedStatement.setInt(5, 53000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 8);
+            preparedStatement.setString(2, "Anna Moore");
+            preparedStatement.setInt(3, 108);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1991-08-20"));
+            preparedStatement.setInt(5, 59000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 9);
+            preparedStatement.setString(2, "James Taylor");
+            preparedStatement.setInt(3, 109);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1986-09-25"));
+            preparedStatement.setInt(5, 61000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 10);
+            preparedStatement.setString(2, "Laura Anderson");
+            preparedStatement.setInt(3, 110);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1989-10-30"));
+            preparedStatement.setInt(5, 57000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 11);
+            preparedStatement.setString(2, "Robert Thomas");
+            preparedStatement.setInt(3, 101);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1983-11-05"));
+            preparedStatement.setInt(5, 54000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 12);
+            preparedStatement.setString(2, "Lisa Jackson");
+            preparedStatement.setInt(3, 102);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1994-12-10"));
+            preparedStatement.setInt(5, 58000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 13);
+            preparedStatement.setString(2, "Mark Harris");
+            preparedStatement.setInt(3, 103);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1981-01-15"));
+            preparedStatement.setInt(5, 50000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 14);
+            preparedStatement.setString(2, "Jessica Martin");
+            preparedStatement.setInt(3, 104);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1985-02-20"));
+            preparedStatement.setInt(5, 60000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 15);
+            preparedStatement.setString(2, "Paul Thompson");
+            preparedStatement.setInt(3, 105);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1988-03-25"));
+            preparedStatement.setInt(5, 55000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 16);
+            preparedStatement.setString(2, "Karen White");
+            preparedStatement.setInt(3, 106);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1990-04-30"));
+            preparedStatement.setInt(5, 62000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 17);
+            preparedStatement.setString(2, "Kevin Clark");
+            preparedStatement.setInt(3, 107);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1992-05-05"));
+            preparedStatement.setInt(5, 48000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 18);
+            preparedStatement.setString(2, "Nancy Rodriguez");
+            preparedStatement.setInt(3, 108);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1984-06-10"));
+            preparedStatement.setInt(5, 51000);
+            preparedStatement.addBatch();
+
+            preparedStatement.setInt(1, 19);
+            preparedStatement.setString(2, "Brian Lewis");
+            preparedStatement.setInt(3, 109);
+            preparedStatement.setDate(4, java.sql.Date.valueOf("1987-07-15"));
+           

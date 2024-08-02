@@ -1,0 +1,155 @@
+01-Aug-2024 15:22:09.295 INFO [main] java.lang.reflect.Method.invoke Server version name:   Apache Tomcat (TomEE)/10.1.25 (10.0.0-M2)
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke Server built:          Jun 14 2024 19:31:59 UTC
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke Server version number: 10.1.25.0
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke OS Name:               Windows 10
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke OS Version:            10.0
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke Architecture:          amd64
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke JVM Version:           18.0.1.1+2-6
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke JVM Vendor:            Oracle Corporation
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke CATALINA_BASE:         C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2
+01-Aug-2024 15:22:09.297 INFO [main] java.lang.reflect.Method.invoke CATALINA_HOME:         C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2
+01-Aug-2024 15:22:09.314 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\conf\logging.properties
+01-Aug-2024 15:22:09.314 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Aug-2024 15:22:09.314 INFO [main] java.lang.reflect.Method.invoke Command line argument: -javaagent:C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\lib\openejb-javaagent.jar
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Dcatalina.base=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Dcatalina.home=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2
+01-Aug-2024 15:22:09.316 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.io.tmpdir=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\temp
+01-Aug-2024 15:22:09.331 INFO [main] java.lang.reflect.Method.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CodeBlocks\MinGW\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\shashidhar.AS\OneDrive\Desktop\flutter\bin;C:\Users\shashidhar.AS\OneDrive\Desktop\flutter\bin\cache\dart-sdk\bin;C:\Program Files\nodejs\;C:\Program Files\HP\HP One Agent;C:\Program Files\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shashidhar.AS\AppData\Local\Programs\Python\Python310;C:\Users\shashidhar.AS\AppData\Local\Microsoft\WindowsApps;C:\MinGW;C:\Users\shashidhar.AS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MinGW\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\shashidhar.AS\AppData\Local\Programs\Python\Python310\scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;C:\Users\shashidhar.AS\Downloads\dartsdk-windows-x64-release\dart-sdk\bin;C:\src\bin;C:\src\bin\cache\dart-sdk\bin;C:\Program Files\heroku\bin;C:\Users\shashidhar.AS\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1\bin;;C:\Program Files\Java\jdk-21\bin;;.]
+01-Aug-2024 15:22:09.564 INFO [main] java.lang.reflect.Method.invoke Initializing ProtocolHandler ["http-nio-8080"]
+01-Aug-2024 15:22:09.585 SEVERE [main] java.lang.reflect.Method.invoke Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:632)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1014)
+		... 11 more
+01-Aug-2024 15:22:09.822 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+01-Aug-2024 15:22:09.916 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+01-Aug-2024 15:22:09.916 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+01-Aug-2024 15:22:09.916 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Thu Aug 01 15:22:09 IST 2024
+01-Aug-2024 15:22:09.916 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2024 (C) Apache TomEE Project, All Rights Reserved.
+01-Aug-2024 15:22:09.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 10.0.0-M2
+01-Aug-2024 15:22:09.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20240716
+01-Aug-2024 15:22:09.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 09:48
+01-Aug-2024 15:22:09.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+01-Aug-2024 15:22:09.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2
+01-Aug-2024 15:22:09.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2
+01-Aug-2024 15:22:09.922 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@12359a82
+01-Aug-2024 15:22:09.929 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+01-Aug-2024 15:22:09.966 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\conf\tomee.xml'
+01-Aug-2024 15:22:10.004 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+01-Aug-2024 15:22:10.006 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+01-Aug-2024 15:22:10.010 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+01-Aug-2024 15:22:10.038 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+01-Aug-2024 15:22:10.081 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+01-Aug-2024 15:22:10.159 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+01-Aug-2024 15:22:10.346 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+01-Aug-2024 15:22:10.393 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+01-Aug-2024 15:22:10.393 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+01-Aug-2024 15:22:10.393 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+01-Aug-2024 15:22:10.393 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+01-Aug-2024 15:22:10.393 INFO [main] java.lang.reflect.Method.invoke Server initialization in [1332] milliseconds
+01-Aug-2024 15:22:10.438 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+01-Aug-2024 15:22:10.439 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+01-Aug-2024 15:22:10.465 INFO [main] java.lang.reflect.Method.invoke Starting service [Catalina]
+01-Aug-2024 15:22:10.465 INFO [main] java.lang.reflect.Method.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/10.1.25 (10.0.0-M2)]
+01-Aug-2024 15:22:10.479 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs]
+01-Aug-2024 15:22:10.496 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+01-Aug-2024 15:22:10.701 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs
+01-Aug-2024 15:22:10.756 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs" loaded.
+01-Aug-2024 15:22:10.798 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs
+01-Aug-2024 15:22:10.874 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+01-Aug-2024 15:22:10.904 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs\META-INF\context.xml
+01-Aug-2024 15:22:10.906 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+01-Aug-2024 15:22:10.909 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs)
+01-Aug-2024 15:22:11.070 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+01-Aug-2024 15:22:11.147 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Aug-2024 15:22:11.229 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs] has finished in [749] ms
+01-Aug-2024 15:22:11.229 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager]
+01-Aug-2024 15:22:11.233 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+01-Aug-2024 15:22:11.271 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager
+01-Aug-2024 15:22:11.282 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager" loaded.
+01-Aug-2024 15:22:11.283 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager
+01-Aug-2024 15:22:11.287 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+01-Aug-2024 15:22:11.291 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager\META-INF\context.xml
+01-Aug-2024 15:22:11.292 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+01-Aug-2024 15:22:11.292 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager)
+01-Aug-2024 15:22:11.345 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+01-Aug-2024 15:22:11.373 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Aug-2024 15:22:11.393 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager] has finished in [164] ms
+01-Aug-2024 15:22:11.394 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager]
+01-Aug-2024 15:22:11.396 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+01-Aug-2024 15:22:11.430 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager
+01-Aug-2024 15:22:11.440 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager" loaded.
+01-Aug-2024 15:22:11.441 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager
+01-Aug-2024 15:22:11.446 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+01-Aug-2024 15:22:11.453 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager\META-INF\context.xml
+01-Aug-2024 15:22:11.454 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+01-Aug-2024 15:22:11.455 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager)
+01-Aug-2024 15:22:11.490 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+01-Aug-2024 15:22:11.515 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Aug-2024 15:22:11.529 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager] has finished in [136] ms
+01-Aug-2024 15:22:11.529 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT]
+01-Aug-2024 15:22:11.529 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+01-Aug-2024 15:22:11.549 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT
+01-Aug-2024 15:22:11.553 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT" loaded.
+01-Aug-2024 15:22:11.554 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT
+01-Aug-2024 15:22:11.557 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+01-Aug-2024 15:22:11.561 WARNING [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+01-Aug-2024 15:22:11.561 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT)
+01-Aug-2024 15:22:11.594 INFO [main] org.apache.myfaces.webapp.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.webapp.MyFacesContainerInitializer
+01-Aug-2024 15:22:11.623 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Aug-2024 15:22:11.633 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT] has finished in [104] ms
+01-Aug-2024 15:22:11.638 INFO [main] java.lang.reflect.Method.invoke Server startup in [1244] milliseconds
+01-Aug-2024 15:22:11.641 SEVERE [main] java.lang.reflect.Method.invoke Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:640)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:392)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+01-Aug-2024 15:22:11.642 INFO [main] java.lang.reflect.Method.invoke Pausing ProtocolHandler ["http-nio-8080"]
+01-Aug-2024 15:22:11.642 INFO [main] java.lang.reflect.Method.invoke Stopping service [Catalina]
+01-Aug-2024 15:22:11.646 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\docs
+01-Aug-2024 15:22:11.678 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\host-manager
+01-Aug-2024 15:22:11.699 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\manager
+01-Aug-2024 15:22:11.722 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\shashidhar.AS\Downloads\apache-tomee-10.0.0-M2-plus\apache-tomee-plus-10.0.0-M2\webapps\ROOT
+01-Aug-2024 15:22:11.743 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+01-Aug-2024 15:22:11.752 INFO [main] java.lang.reflect.Method.invoke Stopping ProtocolHandler ["http-nio-8080"]
+01-Aug-2024 15:22:11.754 INFO [main] java.lang.reflect.Method.invoke Destroying ProtocolHandler ["http-nio-8080"]

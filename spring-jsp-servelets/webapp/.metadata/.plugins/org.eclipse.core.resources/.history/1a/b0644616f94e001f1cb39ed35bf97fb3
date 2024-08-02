@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<script>
+
+function add(){
+	alert(document.getElementbyId("num1")+document.getElementbyId("num1"));
+}
+
+</script>
+
+</head>
+<body>
+<input type="text" id="num1" ><br>
+<input type="text" id="num1"><br>
+<button onclick="add()">Add</button> 
+<button>Subtract</button> 
+
+</body>
+</html>
